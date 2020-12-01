@@ -11,9 +11,10 @@
 <tbody><tr valign="top">
 <td id="layout-menu">
 <div class="menu-category">Menu</div>
-<div class="menu-item"><a href="https://web.stanford.edu/~fengruan/index.html" class="current">Home</a></div>
-<div class="menu-item"><a href="https://web.stanford.edu/~fengruan/research.html">Research</a></div>
-<div class="menu-item"><a href="https://web.stanford.edu/~fengruan/teaching.html">Teaching</a></div>
+<div class="menu-item"><a href="https://fengruan.github.io/index.html" class="current">Home</a></div>
+<div class="menu-item"><a href="https://fengruan.github.io/research.html">Research</a></div>
+<div class="menu-item"><a href="https://fengruan.github.io/research-topic.html">Research (Topic)</a></div>
+<div class="menu-item"><a href="https://fengruan.github.io/teaching.html">Teaching</a></div>
 </td>
 <td id="layout-content">
 <div id="toptitle">
@@ -21,15 +22,39 @@
 </div>
 <table class="imgtable"><tbody><tr><td>
 <img src="./Feng Ruan_files/photo.jpg" alt="" width="320px" height="240px">&nbsp;</td>
-<td align="left"><p>Welcome to my homepage! </p>
-<p>I'm a fourth year Ph.D. candidate in <a href="https://statistics.stanford.edu/">Statistics</a> at Stanford. I am privileged to have 
-	Professor <br> <a href="https://stanford.edu/~jduchi/">John Duchi</a> as my advisor:). 
-	I am also very fortunate to be supervised by Professor <a href="https://web.stanford.edu/~montanar/">Andrea <br> Montanari</a> 
-	and Professor <a href="https://statweb.stanford.edu/~tibs/">Rob Tibshirani</a> on particular projects. 
-Currently, I am grateful <br> to be supported by the <a href="https://vpge.stanford.edu/fellowships-funding/sgf">Stanford Graduate Fellowship</a>.</p>
-<p>Previously, I majored in Mathematics and Statistics in the <a href="http://www.math.pku.edu.cn/">School of Mathematical Sciences at <br>
-Peking University</a> with an Economics minor in <a href="http://www.nsd.pku.edu.cn/">China Center for Economic Research at Peking <br>
-University</a>. I am honored to have been mentored by Professor <a href="http://www.math.pku.edu.cn/teachers/yaoy/">Yuan Yao</a> on my undergraduate thesis.</p>
+<td align="left">
+<p> I'm a fifth year Ph.D. candidate in <a href="https://statistics.stanford.edu/">Statistics</a> at Stanford, 
+	advised by Professor <a href="https://stanford.edu/~jduchi/">John Duchi</a> and supported 
+	by <a href="https://vpge.stanford.edu/fellowships-funding/sgf">Stanford Graduate Fellowship</a>. I am 
+	very fortunate to be supervised by Professor <a href="https://web.stanford.edu/~montanar/"> 
+	Andrea Montanari</a>  and Professor <a href="https://statweb.stanford.edu/~tibs/">Rob Tibshirani</a> 
+	on particular projects. </p>
+
+<p> My main research interest is in designing efficient machine learning algorithms to address three challenges 
+	in modern Data Science:
+
+<p>
+<ul>
+<li> Classical procedures, e.g., MLE, do not apply in modern applications where we need to balance other 
+	constraints, say communication, privacy, etc. How can we generate corresponding new "MLE"s in a 
+	principled way? 
+
+<p>
+<li> Massive data today require novel computation techniques, say parallelization and nonconvex optimization. 
+	Fundamental questions are open in this area. For instance, how parallel should we make our algorithms?
+	What classes of nonconvex problems admit efficient optimization strategies? 
+
+<p>
+<li> High dimensional statistics seeks to separate out low-dimensional structured patterns from the 
+	 noise. Existing techniques address the problem under a parametric setting. Can we settle down   
+	 this problem under a completely nonparametric setting? What are the limits here?
+</ul> 
+
+<p> My research aims to answer the above questions. See the <a 
+		href="https://web.stanford.edu/~fengruan/research-topic.html"> research</a> page for details. 
+
+<p> Here is my <a href="https://web.stanford.edu/~fengruan/pdf/cv.pdf">CV</a>.</p>
+
 <!-- with Professor <a href="http://www.math.pku.edu.cn/static/interface/people.htm?uid=wul">Lan Wu</a> and advised by <br> -->
 </td></tr></tbody></table>
 <h2>Contact</h2>
@@ -43,14 +68,34 @@ University</a>. I am honored to have been mentored by Professor <a href="http://
 </ul>
 <h2>Research Interests</h2>
 <ul>
-<li><p>Statistical Minimax Theory</p>
+<li><p>Statistical Learning Theory</p>
 </li>
 <li><p>Convex and Nonconvex Optimization</p>
 </li>
-<li><p>Statistics and Privacy</p>
-</li>
 <li><p>High Dimensional Statistics</p>
 </ul>
+<!-- My research interests span computation, statistics, machine learning, and optimization. -->
+<!-- My main research interest is in designing efficient machine learning algorithms to address the 
+problems that have taken place in Data Science. Thus far this has led to three major directions. 
+
+<li><p>
+Recipes for obtaining statistically efficient procedures: 
+How does one develop an efficient procedure for statistical estimation  
+under local privacy constraints? How does one come up an online algorithm, 
+using stochastic gradients, to estimate the minimizer of a function? Local 
+minimax theory 
+</p>	
+
+<li><p>
+Recipes for designing computationally efficient procedures: 
+The success of applications of nonconvex optimization problems demands a more refined understanding 
+of how to formulate and model real world or scientific problems into nonconvex optimization amenable 
+for numerical optimization.
+</p>	
+
+<li><p>
+Recipes for separating out structured patterns from the noise: -->
+</p>
 </td>
 </tr>
 </tbody></table>
